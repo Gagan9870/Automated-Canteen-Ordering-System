@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automated Canteen Ordering System</title>
-    <Style>
-        .container{
-            width: 700px;
-            height: auto;
-            margin: 0 auto;
-            padding: 20px ;
-        }
-        .conatiner h1{
-            text-align: center;
-            color: white;
-        }
-        .conatiner img{
-            max-width: 700px;
-            width: 100%;
-            /* margin: 0 auto; */
-        }
-        body{
-            background-color: grey;
-        }
-    </Style>
+    <title>Canteen Food Ordering</title>
+    <link rel="stylesheet" href="../Automated-Canteen-Ordering-System/css/homepage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <img src="../Automated-Canteen-Ordering-System/image/food.jpg" alt="Food image">
-        <h1>This is my Food Ordering WebSite.</h1>
+    <div class="header">
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <h2>CAMS</h2>
+        <ul class="menuleft">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a>
+                <ul class="submenu">
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Ordering Food</a></li>
+                    <li><a href="#">Online Payment</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="menuright">
+            <li><input type="search" id="search" name="search" placeholder="Find an Account"></li>
+            <li><a class="button" href="#">Sign in</a></li>
+            <li><a class="button" href="#">Sign-Up</a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div class="box">
+            <label for="username" id="username">UserName</label><br>
+            <input type="username" id="userbox" name="userbox" required placeholder="UserName"><br>
+            <label for="password" id="password">Password</label><br>
+            <input type="password" id="passwordbox" name="passwordbox" required placeholder="Password"><br>
+            <label for="email" id="email">Email-Id</label><br>
+            <input type="email" id="emailbox" name="emailbox" required placeholder="Email-Id"><br>
+            <p><i class="fa fa-arrow-right" aria-hidden="true"></i>Password should be minimum 8 characters long and also include one upper case letter ,small letters and one special Character.</p>
+            <a href="#">SIGN-UP</a>
+        </div>
+
     </div>
 </body>
 </html>
