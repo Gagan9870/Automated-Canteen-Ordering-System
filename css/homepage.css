@@ -37,7 +37,7 @@
     font-style: 30px;
     color: white;
     text-transform: uppercase;
-    padding-left: 25px;
+    padding-left: 20px;
 }
 .menuright{
     list-style: none;
@@ -74,7 +74,8 @@
 .submenu{
     position: absolute;
     background-color:gray;
-    width: 200px;
+    width: 150px;
+    font-size: 14px;
     left: 0;
     top: 64px;
     display: none;
