@@ -35,7 +35,7 @@
 }
 .menuleft li a{
     text-decoration: none;
-    font-style: 30px;
+    font-style: italic;
     display: block;
     text-align: center;
     padding: 0 10px;
