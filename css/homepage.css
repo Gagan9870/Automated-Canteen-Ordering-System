@@ -291,3 +291,6 @@ section.sec-4 p::after{
 section.sec-4 p:hover::after{
     width: 100%;
 }
+footer hr{
+    opacity: 0.2;
+}
