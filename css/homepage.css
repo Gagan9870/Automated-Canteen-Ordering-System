@@ -61,19 +61,18 @@
 #search{
     margin-right: 20px;
     padding: 5px;
-    border: 2px solid white;
+    border: 2px solid orange;
     border-radius: 5px;
 }
 .button{
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-    border: 2px solid white;
-    border-style: ridge;
+    background-color: black;
     padding:5px 0 5px 20px ;
     border-radius: 5px;
     margin-left: 10px;
 }
-.button:hover{
-    background-color: #bbd3dc;
+#sign-in{
+    background-color: orange;
 }
 .submenu{
     position: absolute;
