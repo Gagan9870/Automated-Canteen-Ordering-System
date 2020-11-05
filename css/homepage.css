@@ -80,7 +80,6 @@
     background-color:gray;
     width: 150px;
     font-size: 14px;
-    left: 0;
     top: 64px;
     display: none;
 }
@@ -110,25 +109,26 @@
     opacity: 1;
     padding: 20px;
 }
-#username,#password,#email{
-    font-size: 30px;
+#username,#password,#email,#confirm-password{
+    font-size: 24px;
 }
-#userbox,#passwordbox,#emailbox{
+#userbox,#passwordbox,#emailbox,#confirm-passwordbox{
     padding: 5px 10px;
     width: 100%;
-    font-size: 20px;
-    margin: 6px 0 15px 0;
+    font-size: 15px;
+    margin: 5px 0 5px 0;
     border: 2px solid lightcoral;
     border-radius: 5px;
 }
 .box p{
     text-align: justify;
     word-spacing: normal;
+    margin-top: 10px;
 }
 .box a{
     display: block;
     background-color: green;
-    margin-top: 55px;
+    margin-top: 40px;
     font-size: 30px; 
     text-align: center;
     text-decoration: none;
@@ -293,4 +293,9 @@ section.sec-4 p:hover::after{
 }
 footer hr{
     opacity: 0.2;
+}
+.submenu li:hover{
+    display: block;
+    width: 100%;
+    background-color: mediumpurple;
 }
