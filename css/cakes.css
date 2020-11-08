@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    /* background-color: yellow; */
+    padding: 0 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#logo{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 8px 25px 0 ;
+}
+.header h2{
+    float: left;
+    line-height: 80px;
+}
+.leftHeader{
+    float: right;
+    list-style: none;
+    
+}
+.leftHeader li{
+    display: inline-block;
+    line-height: 80px;
+}
+.leftHeader li a{
+    text-decoration: none;
+}
+.leftHeader li a i{
+    font-size: 24px;
+    margin-left: 25px;
+    color: black;
+}
+.leftHeader li span{
+    margin-left: 10px;
+}
+.leftHeader li a i:hover{
+    color: orange;
+}
+.banner{
+    width: 100%;
+    height: 250pX;
+    background-color: rgb(9, 8, 66);
+    padding:25px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+.image{
+    width: 350px;
+    height: 200px;
+    /* display: block; */
+    margin-left: 30px;
+}
+.image img{
+    width: 350px;
+    height: 200px;
+}
+.candyName h1{
+    color: white;
+    margin-top:50px;
+    margin-left: 50px;
+}
+.candyName i{
+    display: block;
+    padding: 10px; 
+    float: left;
+    color: black;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    background-color: white;
+}
+
+.candyName span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.search{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 164px;
+    border: none;
+}
+.search:focus{
+    outline: none;
+}
+fieldset{
+    border: 2px solid white;
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 10px;
+}
+fieldset legend{
+    font-size: 24px;
+}
+fieldset p{
+    text-align: justify;
+}
