@@ -6,9 +6,10 @@
 .header{
     width: 100%;
     height: 80px;
-    /* background-color: yellow; */
+    background-color: white;
     padding: 0 20px;
     font-family: 'Open Sans Condensed', sans-serif;
+    /* position: fixed; */
 }
 #logo{
     float: left;
@@ -28,6 +29,7 @@
 .leftHeader li{
     display: inline-block;
     line-height: 80px;
+    position: relative;
 }
 .leftHeader li a{
     text-decoration: none;
@@ -42,6 +44,30 @@
 }
 .leftHeader li a i:hover{
     color: orange;
+}
+.submenu{
+    position: absolute;
+    background-color:white;
+    width: 120px;
+    font-size: 24px;
+    top: 75px;
+    right: -10px;
+    border-radius: 10px;
+    display: none;
+}
+.submenu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.leftHeader li:hover .submenu{
+    display: block;
+}
+.submenu li:hover{
+    background-color: teal;
+    border: 2px solid burlywood;
+    border-radius: 5px;    
 }
 .banner{
     width: 100%;
@@ -75,7 +101,7 @@
     font-size: 24px;
     margin-left: 50px;
     margin-top: 50px;
-    
+    cursor: pointer;
     background-color: white;
 }
 
