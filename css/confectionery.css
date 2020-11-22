@@ -21,6 +21,10 @@
     float: left;
     line-height: 80px;
 }
+.header h2 a{
+    text-decoration: none;
+    color: black;
+}
 .leftHeader{
     float: right;
     list-style: none;
@@ -132,4 +136,66 @@ fieldset legend{
 }
 fieldset p{
     text-align: justify;
+}
+
+.products{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.item{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 400px;
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 15px ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+.item img{
+    height:270px;
+    width: 100px;
+    display: block;
+    margin: 15px auto;
+    /* display: block; */
+    /* background-color: slateblue; */
+}
+.item h3{
+    margin-bottom: 7px;
+}
+.item:hover{
+    border: 5px solid rgb(198, 233, 235);
+    transition: .3s;
+}
+.verticalitem{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 400px;
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 15px ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+.verticalitem img{
+    height:100px;
+    width: 200px;
+    display: block;
+    margin: 100px auto;
+    /* display: block; */
+    /* background-color: slateblue; */
+}
+.verticalitem h3{
+    margin-bottom: 7px;
+}
+.verticalitem:hover{
+    border: 5px solid rgb(198, 233, 235);
+    transition: .3s;
 }
