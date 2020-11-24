@@ -108,7 +108,7 @@
     margin: 15px 0;
 }
 .box:hover{
-    border: 2px solid burlywood;
+    border: 5px solid burlywood;
     transition: .3s;
     border-radius: 10px;
     
