@@ -21,6 +21,10 @@
     float: left;
     line-height: 80px;
 }
+.header h2 a{
+    text-decoration: none;
+    color: black;
+}
 .leftHeader{
     float: right;
     list-style: none;
@@ -134,4 +138,38 @@ fieldset legend{
 }
 fieldset p{
     text-align: justify;
+}
+.products{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    
+}
+.item{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 400px;
+    float: left;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding:5px 15px ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+.item img{
+    height:270px;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
+    /* display: block; */
+    /* background-color: slateblue; */
+}
+.item h3{
+   margin-top: 20px;
+}
+.item:hover{
+    border: 5px solid rgb(198, 233, 235);
+    transition: .3s;
+    border-radius: 10px;
 }
